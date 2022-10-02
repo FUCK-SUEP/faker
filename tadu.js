@@ -7,8 +7,8 @@
 
 var body = $response.body;
 var url = $request.url;
-let obj = JSON.parse(body);
-obj.data.isMember = 1;
+body.replace('"isMember":0','"isMember":1')
+body.replace('"isMember":2','"isMember":1')
 
 
-$done(JSON.stringify(obj));
+$done(body);
