@@ -6,7 +6,6 @@
 
 var body = $response.body;
 var url = $request.url;
-console.log(url)
 if (url.indexOf("getChapterTdz") !== -1) {
     obj = JSON.parse(body);
     obj.data.chapterInfo["isCleanAd"] = "1";
@@ -16,8 +15,8 @@ if (url.indexOf("getChapterTdz") !== -1) {
     $done(JSON.stringify(obj));
 } else if (url.indexOf("userInfo") !== -1) {
     obj = JSON.parse(body);
-    console.log(obj.data)
     obj.data["isMember"] = 1;
+    obj.data["expiredDateStr"] = "塔读阅读VIP免广告破解成功~";
     $done(JSON.stringify(obj));
 }
 
