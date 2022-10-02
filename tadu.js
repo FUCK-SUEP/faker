@@ -15,6 +15,7 @@ if (url.indexOf("getChapterTdz") !== -1) {
     $done(JSON.stringify(body));
 } else if (url.indexOf("userInfo") !== -1) {
     obj = JSON.parse(body);
+    console.log(obj.data)
     obj.data["isMember"] = 1;
     $done(JSON.stringify(body));
 }
