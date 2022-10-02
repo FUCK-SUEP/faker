@@ -6,6 +6,7 @@
 
 var body = $response.body;
 var url = $request.url;
+console.log(url)
 if (url.indexOf("getChapterTdz") !== -1) {
     obj = JSON.parse(body);
     obj.data.chapterInfo["isCleanAd"] = "1";
