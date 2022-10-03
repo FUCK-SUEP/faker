@@ -16,6 +16,13 @@ if (url.indexOf("getChapterTdz") !== -1) {
 } else if (url.indexOf("userInfo") !== -1) {
     obj = JSON.parse(body);
     obj.data["isMember"] = 1;
+    obj.data["nickName"] = "塔读阅读VIP用户";
+    obj.data["freeMemberHours"] = 9999;
+    obj.data["discount"] = 0;
+    obj.data["isPurchased"] = 1;
+    obj.data["userHadVoteCount"] = 999;
+    obj.data["goldenTicketNum"] = 999;
+    obj.data["remainPrestige"] = 999;
     obj.data["expiredDateStr"] = "塔读阅读VIP免广告破解成功~";
     $done(JSON.stringify(obj));
 }
