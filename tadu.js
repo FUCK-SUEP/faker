@@ -27,6 +27,14 @@ if (url.indexOf("getChapterTdz") !== -1) {
     obj.data["userLevelImage"] = "";
     obj.data["myCommentsUrl"] = "";
     obj.data["userLevelUrl"] = "";
+    obj.data["myCollect"] = "";
+    obj.data["inviteFriendUrl"] = "";
+    obj.data["userVoteUrl"] = "";
+    obj.data["messageUrl"] = "";
+    obj.data["memberOpenUrl"] = "";
+    obj.data["memberCenterUrl"] = "";
+    obj.data["kaquanUrl"] = "";
+    obj.data["userPrestigeUrl"] = "";
     obj.data["accountUrl"] = "";
     obj.data["goldenTicketUrl"] = "";
     obj.data["emojiPrivilege"] = 1;
