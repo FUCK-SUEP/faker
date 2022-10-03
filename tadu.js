@@ -23,9 +23,9 @@ if (url.indexOf("getChapterTdz") !== -1) {
     obj.data["userHadVoteCount"] = 999;
     obj.data["goldenTicketNum"] = 999;
     obj.data["remainPrestige"] = 999;
-    obj.data["userLevel"] = "Lv.999";
-    obj.data["emojiPrivilege"] = 999;
-    obj.data["imagePrivilege"] = 999;
+    obj.data["userLevel"] = "Lv.12";
+    obj.data["emojiPrivilege"] = 1;
+    obj.data["imagePrivilege"] = 1;
     obj.data["expiredDateStr"] = "塔读阅读VIP免广告破解成功~";
     $done(JSON.stringify(obj));
 }
